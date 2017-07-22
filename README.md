@@ -2,9 +2,9 @@
 
 ## Prerequisites:
 
-- Etcher (https://etcher.io/)
-- PuTTY (https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
-- Python 3 for Windows (https://www.python.org/downloads/)
+- [Etcher](https://etcher.io/)
+- [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+- [Python 3 for Windows](https://www.python.org/downloads/)
 
 ## Step by step:
 
@@ -12,7 +12,7 @@
 
 Throughout this process, Windows may occasionally pop up warning dialogs saying you have to format the disk before you can use it - *always* ignore these (click Cancel or close)
 
-- Download Raspbian Jessie (or later) image from https://downloads.raspberrypi.org/raspbian_lite_latest
+- Download [Raspbian Jessie (or later) *Lite* image](https://downloads.raspberrypi.org/raspbian_lite_latest) 
 - Mount the RPi SD card in your PC
 - Open Etcher, select the downloaded Raspbian image and click Flash
 - Once the card is flashed and validated, Etcher will automatically eject it
@@ -33,7 +33,7 @@ Throughout this process, Windows may occasionally pop up warning dialogs saying 
 - Open PuTTY and enter `pi@192.168.0.123` as the hostname, replacing the IP address with that or your RPi
 - Make sure the connection type is set to SSH, then click **Open**
 - You should see a password prompt: enter `raspberry` (the default RPi password)
-- That's it - you're now logged in to your RPi
+- That's it: you're now logged in to your RPi
 
 ### Update the RPi firmware and system packages
 
@@ -101,8 +101,8 @@ Throughout this process, Windows may occasionally pop up warning dialogs saying 
 
 ## References:
 
-http://angryip.org/
-https://learn.pimoroni.com/tutorial/sandyj/setting-up-a-headless-pi
-https://play.google.com/store/apps/details?id=com.overlook.android.fing&hl=en_GB&rdid=com.overlook.android.fing
-https://kivy.org/docs/installation/installation-rpi.html
-https://kivy.org/docs/installation/installation-windows.html
+http://angryip.org/  
+https://learn.pimoroni.com/tutorial/sandyj/setting-up-a-headless-pi  
+https://play.google.com/store/apps/details?id=com.overlook.android.fing&hl=en_GB&rdid=com.overlook.android.fing  
+https://kivy.org/docs/installation/installation-rpi.html  
+https://kivy.org/docs/installation/installation-windows.html  
