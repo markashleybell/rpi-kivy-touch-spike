@@ -1,0 +1,11 @@
+#:kivy 1.10
+
+GridLayout:
+    rows: 1
+    cols: 2
+    Button:
+        text: "Cool, it works"
+        on_release: app.button_click()
+    Button:
+        text: "Exit"
+        on_release: app.stop()
